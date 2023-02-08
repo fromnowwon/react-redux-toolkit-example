@@ -3,7 +3,7 @@
 		"browser": true,
 		"es2021": true
 	},
-	"extends": [ // 설치한 플러그인 추가
+	"extends": [
 		"plugin:react/recommended",
 		"standard-with-typescript",
 		"plugin:jsx-a11y/recommended",
@@ -24,8 +24,8 @@
 		"@typescript-eslint"
 	],
 	"rules": {
-		"react/react-in-jsx-scope": "off", // import React from "react" 생략
-		"react/jsx-filename-extension": [ // jsx가 아닌 파일에서 jsx가 아닌 확장명 허용
+		"react/react-in-jsx-scope": "off",
+		"react/jsx-filename-extension": [
 			2,
 			{
 				"extensions": [
@@ -36,13 +36,13 @@
 				]
 			}
 		],
-		"linebreak-style": "off", // CRLF(윈도우), LF(맥) 개행 관련 에러 무시
+		"linebreak-style": "off",
 		"import/prefer-default-export": "off",
 		"import/extensions": "off",
 		"no-use-before-define": "off",
 		"import/no-unresolved": "off",
-		"import/no-extraneous-dependencies": "off", // 테스트 또는 개발환경을 구성하는 파일에서는 devDependency 사용을 허용
+		"import/no-extraneous-dependencies": "off",
 		"no-shadow": "off",
-		"react/prop-types": "off",
+		"react/prop-types": "off"
 	}
 }
