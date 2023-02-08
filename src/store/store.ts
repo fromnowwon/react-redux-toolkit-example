@@ -4,7 +4,7 @@ import { PersonSlice } from './features/personSlice';
 
 export const store = configureStore({
   reducer: {
-    pserson: PersonSlice.reducer,
+    person: PersonSlice.reducer,
   },
 });
 
